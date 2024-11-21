@@ -1,11 +1,11 @@
-package ratherchatoic.eaftos.datagen;
+package ratherchaotic.eaftos.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import ratherchatoic.eaftos.item.EaftosItems;
+import ratherchaotic.eaftos.item.EaftosItems;
 
 public class EaftosModelProvider extends FabricModelProvider {
     public EaftosModelProvider(FabricDataOutput output) {

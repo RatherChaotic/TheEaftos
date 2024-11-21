@@ -1,4 +1,4 @@
-package ratherchatoic.eaftos.item;
+package ratherchaotic.eaftos.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -7,7 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import ratherchatoic.eaftos.TheEaftos;
+import ratherchaotic.eaftos.TheEaftos;
 
 public class EaftosItemGroups {
     public static final ItemGroup EAFTOS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "ratherchatoic.eaftos.mixin.client",
+	"package": "ratherchaotic.eaftos.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

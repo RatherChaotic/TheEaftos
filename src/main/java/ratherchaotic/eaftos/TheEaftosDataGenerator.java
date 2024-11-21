@@ -1,8 +1,8 @@
-package ratherchatoic.eaftos;
+package ratherchaotic.eaftos;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import ratherchatoic.eaftos.datagen.EaftosModelProvider;
+import ratherchaotic.eaftos.datagen.EaftosModelProvider;
 
 public class TheEaftosDataGenerator implements DataGeneratorEntrypoint {
 	@Override

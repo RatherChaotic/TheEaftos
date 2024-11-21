@@ -1,4 +1,4 @@
-package ratherchatoic.eaftos;
+package ratherchaotic.eaftos;
 
 import net.fabricmc.api.ClientModInitializer;
 

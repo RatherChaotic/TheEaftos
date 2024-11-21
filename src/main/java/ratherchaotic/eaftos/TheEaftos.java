@@ -1,11 +1,11 @@
-package ratherchatoic.eaftos;
+package ratherchaotic.eaftos;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ratherchatoic.eaftos.item.EaftosItemGroups;
-import ratherchatoic.eaftos.item.EaftosItems;
+import ratherchaotic.eaftos.item.EaftosItemGroups;
+import ratherchaotic.eaftos.item.EaftosItems;
 
 public class TheEaftos implements ModInitializer {
 	public static final String MOD_ID = "eaftos";
