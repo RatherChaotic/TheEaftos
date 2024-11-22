@@ -3,7 +3,7 @@
 	"package": "ratherchaotic.eaftos.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"EaftosClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
