@@ -4,10 +4,11 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ratherchaotic.eaftos.block.EaftosBlocks;
 import ratherchaotic.eaftos.item.EaftosItemGroups;
 import ratherchaotic.eaftos.item.EaftosItems;
 
-public class TheEaftos implements ModInitializer {
+public class Eaftos implements ModInitializer {
 	public static final String MOD_ID = "eaftos";
 
 	// This logger is used to write text to the console and the log file.
@@ -22,6 +23,7 @@ public class TheEaftos implements ModInitializer {
 		// Proceed with mild caution.
 		EaftosItemGroups.registerItemGroups();
 		EaftosItems.registerEaftosItems();
+		EaftosBlocks.registerEaftosBlocks();
 
 	}
 }

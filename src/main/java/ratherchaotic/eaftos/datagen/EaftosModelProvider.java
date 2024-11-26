@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import ratherchaotic.eaftos.block.EaftosBlocks;
 import ratherchaotic.eaftos.item.EaftosItems;
 
 public class EaftosModelProvider extends FabricModelProvider {
@@ -14,7 +15,7 @@ public class EaftosModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
+        blockStateModelGenerator.registerSimpleCubeAll(EaftosBlocks.KENOS_BLOCK);
     }
 
     @Override

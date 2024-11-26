@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "eaftos:block/kenos_block"
+    }
+  }
+}

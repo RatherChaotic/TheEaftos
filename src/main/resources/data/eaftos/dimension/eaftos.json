@@ -6,7 +6,12 @@
       "biome": "eaftos:eaftos_basic",
       "lakes": false,
       "features": false,
-      "layers": [],
+      "layers": [
+        {
+          "block": "eaftos:kenos_block",
+          "height": 1
+        }
+      ],
       "structure_overrides": []
     }
   }

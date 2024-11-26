@@ -1,4 +1,8 @@
 {
   "itemgroup.eaftos.eaftos_items": "The Eaftos",
-  "item.eaftos.cursed_book": "Cursed Book"
+
+  "item.eaftos.cursed_book": "Cursed Book",
+  "item.eaftos.kenos_block": "Block of Kenos",
+
+  "block.eaftos.kenos_block": "Kenos"
 }

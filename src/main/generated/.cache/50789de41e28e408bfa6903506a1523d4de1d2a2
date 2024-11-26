@@ -1,2 +1,5 @@
-// 1.21.3	2024-11-20T20:28:11.2594783	The Eaftos/Model Definitions
+// 1.21.3	2024-11-23T15:01:04.7837594	The Eaftos/Model Definitions
 d3b5ba2895321b57018b0f0ae69e8e3a15568f76 assets\eaftos\models\item\cursed_book.json
+659f715835409aa5ba261c18445312a6d95fe5f3 assets\eaftos\models\block\kenos_block.json
+2ead70fb4d2760e62830fd93f526391c3db0582e assets\eaftos\models\item\kenos_block.json
+54b8b906359fbebd67c10f25486c89116a154710 assets\eaftos\blockstates\kenos_block.json

@@ -1,24 +1,29 @@
 package ratherchaotic.eaftos.mixin.client;
 
-import com.llamalad7.mixinextras.sugar.Local;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.*;
-import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.client.world.ClientWorld;
-import net.minecraft.util.math.ColorHelper;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import ratherchaotic.eaftos.Eaftos;
 
 import static net.minecraft.client.render.DimensionEffects.*;
 
 @Mixin(WorldRenderer.class)
+
+
 public class EaftosClientMixin {
 
+
+    @Inject(method="renderSky", at= @At(value = "INVOKE", target = "Lnet/minecraft/client/render/SkyRendering;renderEndSky(Lnet/minecraft/client/util/math/MatrixStack;)V"))
+    private void EaftosCheck(CallbackInfo ci) {
+        DimensionEffects dimensionEffects = (DimensionEffects) (Object) this;
+        DimensionEffects.SkyType skyType = dimensionEffects.getSkyType();
+        Eaftos.LOGGER.info("Eaftos SkyType: " + skyType);
+    }
+
+	/*
 	@Final @Shadow
     private SkyRendering skyRendering;
 	@Shadow @Final
@@ -49,10 +54,10 @@ public class EaftosClientMixin {
 				if (dimensionEffects.isSunRisingOrSetting(h)) {
 					this.skyRendering.renderGlowingSky(matrixStack, tessellator, g, k);
 				}
-				/*if (this.isSkyDark(tickDelta)) {
+				if (this.isSkyDark(tickDelta)) {
 					this.skyRendering.renderSkyDark(matrixStack);
-				}*/
+				}
 			}
 		}
-	}
+	}*/
 }

@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"ratherchaotic.eaftos.TheEaftos"
+			"ratherchaotic.eaftos.Eaftos"
 		],
 		"client": [
 			"ratherchaotic.eaftos.TheEaftosClient"
 		],
 		"fabric-datagen": [
-			"ratherchaotic.eaftos.TheEaftosDataGenerator"
+			"ratherchaotic.eaftos.EaftosDataGenerator"
 		]
 	},
 	"mixins": [
